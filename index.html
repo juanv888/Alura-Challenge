@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="AppleDesk"
+      sizes="180x180"
+      href="./assets/AppleDesk.png"
+    />
+    <link
+      rel="tablet"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="cellphone"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./JSEncrypt/app.js" defer></script>
+    <title>Encriptador de texto</title>
+<body>
+    <header>
+        <img class="logo" src="./assets/AluraLogo.png" alt="Logo de Alura">
+    </header>
+
+    <div class="principal__container">
+        <div class="container__one">
+            <textarea 
+            name="texto"
+            id="text__input"
+            cols="30"
+            rows="10"
+            placeholder="Ingrese el texto aqui">
+        </textarea>
+
+            <div class="group1">
+                <div class="ad">
+                    <figure class="adv">
+                        <img src="./assets/Aviso.png" 
+                        alt="Advertencia"
+                        />
+                        <p>Solo letras minúsculas y sin acentos</p>
+                    </figure>
+                </div>
+                <div class="buttons">
+                    <button class="primary__button">Encriptar</button>
+                    <button class="secondary__button">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__two">
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./assets/Muñeco.png" alt="Muñeco" />
+                        <h3>Ningún mensaje fue encontrado</h3>
+                        <p class="card-text">
+                            Ingresa el texto que desees encriptar o desencriptar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="creator__name">
+            By Juan Vega
+        </div>
+        <div id="social__media">
+            <ul>
+                <li>
+                    <a href="https://github.com/juanv888">
+                        <img src="./assets/github.png" alt="Logo de Github">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/juan-vega-b523822b0/">
+                        <img src="./assets/linkedin.png" alt="Logo de Linkedin">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./JSEncrypt/app.js"></script>
+</body>
+</html>
